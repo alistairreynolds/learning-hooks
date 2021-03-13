@@ -4,7 +4,7 @@
   "description": "Learning about hooks Move the relevant hook file to the .git/hooks file tn enable a hook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
