@@ -1,0 +1,13 @@
+#!/bin/sh
+
+regex='@gmail\.com$'
+email=$GIT_AUTHOR_EMAIL
+
+if [[ $email =~ $regex ]];
+then
+  echo Your email $email is allowed to commit
+  exit 0
+else
+  echo You are not allowed to commit
+  exit 1
+fi
